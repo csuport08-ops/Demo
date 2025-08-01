@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     'phone' => $phone,
     'message' => $message,
     // Add your API key directly here
-    'key' => '40b29c6f951a66973f706c9027dcd1caf35d1524l4EC44JyrfO90g5BzmsmFQjh0',
+    'key' => '9914689ee00e5cda93d3204df3c2e28afafaca8863Y56O6Lq9cZKvoJlpAHgwndZ',
   );
 
   curl_setopt($ch, CURLOPT_POST, 1);
