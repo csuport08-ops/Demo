@@ -7,7 +7,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $data = array(
     'phone' => $phone,
     'message' => $message,
-    'key' => getenv('TEXTBELT_API_KEY'),
+    // Add your API key directly here
+    'key' => '40b29c6f951a66973f706c9027dcd1caf35d1524l4EC44JyrfO90g5BzmsmFQjh0',
   );
 
   curl_setopt($ch, CURLOPT_POST, 1);
